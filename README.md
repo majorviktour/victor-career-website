@@ -1,2 +1,2 @@
 # victor-career-website
-A career website for victor
+A career website for Victor
