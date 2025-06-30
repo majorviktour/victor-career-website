@@ -1,0 +1,17 @@
+language = "python"
+run = "python app.py"
+modules = ["python-3.11"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "victor-career-website"
+mode = "sequential"
+author = 41483041
+
+[[workflows.workflow.tasks]]
+task = "packager.installForLanguage"
+args = "nix"
+
+[nix]
+channel = "stable-24_05"
